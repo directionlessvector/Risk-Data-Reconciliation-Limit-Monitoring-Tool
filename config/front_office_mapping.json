@@ -1,0 +1,22 @@
+{
+  "source_name": "front_office",
+  "column_map": {
+    "TradeRef": "trade_id",
+    "ClientName": "counterparty",
+    "Product": "asset_class",
+    "Notional_USD_mm": "notional",
+    "Ccy": "currency",
+    "TradeDt": "trade_date"
+  },
+  "unit_conversions": {
+    "notional": { "multiply_by": 1000000 }
+  },
+  "date_format": "%d/%m/%Y",
+  "asset_class_vocab": {
+    "FXFwd": "FX",
+    "IRS": "Rates",
+    "CDS": "Credit",
+    "EQSwap": "Equity"
+  },
+  "drop_columns": ["DeskComment"]
+}

@@ -1,0 +1,26 @@
+TradeRef,ClientName,Product,Notional_USD_mm,Ccy,TradeDt,DeskComment
+TR10001,Acme Capital LLC,FXFwd,5.0,USD,10/06/2026,routine roll
+TR10002,Acme Capital LLC,FXFwd,4.8,USD,11/06/2026,
+TR10003,Acme Capital LLC,FXFwd,5.8,USD,12/06/2026,client request
+TR10004,Acme Capital LLC,FXFwd,2.4,USD,16/06/2026,booked late afternoon
+TR10005,Beacon Partners,IRS,10.0,USD,09/06/2026,
+TR10006,Beacon Partners,IRS,8.5,USD,10/06/2026,
+TR10007,Beacon Partners,IRS,6.5,USD,13/06/2026,
+TR10008,Cresta Holdings,CDS,4.0,USD,10/06/2026,
+TR10009,Cresta Holdings,CDS,3.5,USD,11/06/2026,manual booking
+TR10010,Cresta Holdings,CDS,2.8,USD,15/06/2026,
+TR10011,Delta Square Investments,EQSwap,3.0,USD,09/06/2026,
+TR10012,Delta Square Investments,EQSwap,2.5,USD,12/06/2026,
+TR10013,Delta Square Investments,EQSwap,2.0,USD,16/06/2026,booked late afternoon
+TR10014,Everest Macro Fund,FXFwd,6.0,EUR,10/06/2026,
+TR10015,Everest Macro Fund,FXFwd,4.5,USD,11/06/2026,
+TR10016,Falcon Bridge Partners,IRS,7.0,USD,12/06/2026,
+TR10017,Falcon Bridge Partners,IRS,5.5,USD,13/06/2026,
+TR10018,Falcon Bridge Partners,IRS,4.0,USD,16/06/2026,booked late afternoon
+TR10019,Granite Peak Capital,CDS,3.8,USD,09/06/2026,
+TR10020,Granite Peak Capital,CDS,2.9,USD,14/06/2026,
+TR10021,Harbor View Asset Mgmt,FXFwd,9.0,USD,10/06/2026,
+TR10022,Harbor View Asset Mgmt,FXFwd,7.2,USD,11/06/2026,
+TR10023,Harbor View Asset Mgmt,FXFwd,5.5,USD,15/06/2026,
+TR10024,Acme Capital LLC,FXFwd,1.8,USD,14/06/2026,
+TR10025,Beacon Partners,IRS,3.0,USD,15/06/2026,

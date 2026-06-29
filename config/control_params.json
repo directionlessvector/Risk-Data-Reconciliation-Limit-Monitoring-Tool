@@ -1,0 +1,10 @@
+{
+  "tolerance_pct": 0.01,
+  "timing_lag_window_days": 1,
+  "value_break_classification": {
+    "stale_price_max_pct": 0.05,
+    "data_entry_error_min_pct": 0.05
+  },
+  "currency_break_overrides_value_break": false,
+  "run_date": "2026-06-16"
+}

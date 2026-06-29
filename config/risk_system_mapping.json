@@ -1,0 +1,20 @@
+{
+  "source_name": "risk_system",
+  "column_map": {
+    "trade_id": "trade_id",
+    "counterparty_name": "counterparty",
+    "risk_class": "asset_class",
+    "notional_usd": "notional",
+    "currency_code": "currency",
+    "value_date": "trade_date"
+  },
+  "unit_conversions": {},
+  "date_format": "%Y-%m-%d",
+  "asset_class_vocab": {
+    "FX": "FX",
+    "Rates": "Rates",
+    "Credit": "Credit",
+    "Equity": "Equity"
+  },
+  "drop_columns": ["risk_limit_flag"]
+}

@@ -1,0 +1,11 @@
+break_id,trade_id,break_type,root_cause,commentary,status,date_identified
+BRK-20260616-001,TR10004,missing_risk_system_only,Timing Lag,"Trade TR10004 (Acme Capital LLC) present in Front Office only as of 2026-06-16; timing lag, expected to clear within 1 business day.",Open,2026-06-16
+BRK-20260616-002,TR10009,value_break,Stale Price / Rate Timing,Notional variance of 3.0% identified for trade TR10009 (Cresta Holdings); within range consistent with rate timing differences between source systems.,Open,2026-06-16
+BRK-20260616-003,TR10014,currency_break,FX / Reference Data Mismatch,"Currency mismatch identified for trade TR10014 (Everest Macro Fund): Front Office reports EUR, Risk System reports USD; flagged for FX/reference data review.",Open,2026-06-16
+BRK-20260616-004,TR10017,value_break,Data Entry Error - Escalate,Material notional variance of 11.82% identified for trade TR10017 (Falcon Bridge Partners); escalated for data entry verification per SOP.,Open,2026-06-16
+BRK-20260616-005,TR10024,missing_risk_system_only,Unbooked / Feed Failure - Escalate,Trade TR10024 (Acme Capital LLC) present in Front Office only as of 2026-06-14; unbooked / feed failure - escalate - investigate booking status with source desk.,Open,2026-06-16
+BRK-20260616-006,TR10025,missing_risk_system_only,Timing Lag,"Trade TR10025 (Beacon Partners) present in Front Office only as of 2026-06-15; timing lag, expected to clear within 1 business day.",Open,2026-06-16
+BRK-20260616-007,TR10026,missing_front_office_only,Timing Lag,"Trade TR10026 (Granite Peak Capital) present in Risk System only as of 2026-06-16; timing lag, expected to clear within 1 business day.",Open,2026-06-16
+LIM-20260616-001,,limit_breach,Acme Capital LLC / FX exposure breach,"Aggregate FX exposure to Acme Capital LLC of $15,600,000 exceeds approved limit of $15,000,000 by 4.0%; escalated to Risk Coverage.",Escalated,2026-06-16
+LIM-20260616-002,,limit_breach,Cresta Holdings / Credit exposure breach,"Aggregate Credit exposure to Cresta Holdings of $10,300,000 exceeds approved limit of $10,000,000 by 3.0%; escalated to Risk Coverage.",Escalated,2026-06-16
+LIM-20260616-003,,limit_breach,Harbor View Asset Mgmt / FX exposure breach,"Aggregate FX exposure to Harbor View Asset Mgmt of $21,700,000 exceeds approved limit of $20,000,000 by 8.5%; escalated to Risk Coverage.",Escalated,2026-06-16
